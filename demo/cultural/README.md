@@ -20,7 +20,7 @@ The film presents the intended visitor experience and cultural storytelling conc
 
 - Duration: approximately 1 minute 42 seconds.
 - Original: 1920 × 1080 MP4, supplied and manually edited by the project team. The original file is preserved as a Release attachment.
-- Browser version: H.264/AAC MP4 with streaming-friendly metadata. The full edit, soundtrack and timing are retained; only the delivery encoding is changed.
+- Online playback: the exact original 1920 × 1080 MP4, without re-encoding or additional compression. Its SHA-256 matches the original supplied file. The earlier smaller browser copy is retained in the repository but is no longer the player's source.
 - Original SHA-256: `7350e78652263cf1d399e9042874765cc797d92fa558c77640e916ebc4ebdcc6`.
 
 ## Suggested pitch-deck caption
