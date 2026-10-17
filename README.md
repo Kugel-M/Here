@@ -10,6 +10,14 @@ A Windows prototype that reconstructs an indoor scene from phone video, estimate
 
 The video shows the working application's photo localization, destination selection, A* route planning, static scene arrows and re-localization. The arrival stage replays an already-registered mapping image through the real engine. It is not a physical walking trial or a held-out arrival-accuracy test.
 
+## Cultural experience demo
+
+**Hong Kong, one stop at a time.** A final team-edited film follows a visit to a Hong Kong dai pai dong, where a “Tap for a story” marker invites a visitor to discover local culture. This presents HERE's proposed cultural experience alongside the working wayfinding prototype above.
+
+[**Watch the cultural demo in your browser · 1:42**](https://kugel-m.github.io/Here/cultural-demo.html) · [Introduction and scope](demo/cultural/README.md) · [Download the original film](https://github.com/Kugel-M/Here/releases/download/cultural-demo-v1/Cultural-demo-original.mp4)
+
+[![Cultural experience demo](docs/media/cultural-poster.jpg)](https://kugel-m.github.io/Here/cultural-demo.html)
+
 ## Run the application
 
 See **[the Windows setup and operation guide](indoor_mapper_mvp/README.md)**. Requirements are Windows 10/11, Python 3.12 (64-bit), COLMAP and the Python dependencies in `indoor_mapper_mvp/requirements.txt`.
