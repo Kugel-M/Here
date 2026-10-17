@@ -1,0 +1,89 @@
+[
+  {
+    "id": "01_intro",
+    "title": "Find your place.\nSee your next step.",
+    "step": "PHOTO-BASED INDOOR NAVIGATION",
+    "body": [
+      "Existing localization engine",
+      "Independent visual navigation module"
+    ],
+    "voice": "Here combines photo based indoor localization with visual route guidance."
+  },
+  {
+    "id": "02_map",
+    "title": "One shared\ncoordinate system.",
+    "step": "01 / BUILD THE MAP",
+    "body": [
+      "Phone video → COLMAP SfM",
+      "Sparse 3D points + registered cameras",
+      "Navigation uses the original model frame"
+    ],
+    "voice": "COLMAP builds a sparse map from a phone video. Reference cameras share one three dimensional coordinate system."
+  },
+  {
+    "id": "03_localize",
+    "title": "A real photo.\nA computed pose.",
+    "step": "02 / LOCALIZE",
+    "body": [
+      "Extract and match image features",
+      "Register 2D features against 3D points",
+      "Validate the estimated camera pose"
+    ],
+    "voice": "Upload a corridor photo. Feature matching and two D to three D registration estimate the camera position and orientation."
+  },
+  {
+    "id": "04_pose",
+    "title": "Position and heading.\nNo invented coordinates.",
+    "step": "03 / READ THE RESULT",
+    "body": [
+      "XYZ + camera-to-world rotation",
+      "Heading = camera forward in world space",
+      "Metric distance requires a measured scale"
+    ],
+    "voice": "These are genuine model coordinates. Metric distances require a measured scale, and are not invented."
+  },
+  {
+    "id": "05_route",
+    "title": "Choose a place.\nPlan a connected route.",
+    "step": "04 / PLAN WITH A*",
+    "body": [
+      "Destination names and aliases",
+      "Independent graph of walkable connections",
+      "Turn = heading versus route direction"
+    ],
+    "voice": "Choose a destination. A star search follows the connected navigation graph. Turn directions come from the camera heading and route vectors."
+  },
+  {
+    "id": "06_arrows",
+    "title": "Directions,\nin the scene.",
+    "step": "05 / FOLLOW VISUAL GUIDANCE",
+    "body": [
+      "Current pose → relative turn direction",
+      "Arrow overlay on the localization photo",
+      "Stored photos preview upcoming steps"
+    ],
+    "voice": "A perspective style arrow is drawn on the localization photo. Stored reference images illustrate the upcoming steps."
+  },
+  {
+    "id": "07_relocalize",
+    "title": "Take another photo.\nUpdate the route.",
+    "step": "06 / RE-LOCALIZE",
+    "body": [
+      "Every new photo runs real localization",
+      "Replan or pause when needed",
+      "Arrival check: registered waypoint replay"
+    ],
+    "voice": "Re-localize to update progress. For this controlled arrival check, we replay a registered waypoint image, then let the program confirm arrival."
+  },
+  {
+    "id": "08_finish",
+    "title": "A working pipeline.\nReady for field testing.",
+    "step": "DEMONSTRATED / NOT SIMULATED COORDINATES",
+    "body": [
+      "Real images, real localization outputs",
+      "Static photo overlays, not live camera AR",
+      "On-site walking validation remains pending"
+    ],
+    "voice": "This is a real photo replay, not live augmented reality. On site walking validation is the next step."
+  }
+]

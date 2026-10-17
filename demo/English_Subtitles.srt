@@ -1,0 +1,63 @@
+1
+00:00:00,350 --> 00:00:05,148
+Here combines photo based indoor localization with visual route guidance.
+
+2
+00:00:06,017 --> 00:00:08,992
+COLMAP builds a sparse map from a phone video.
+
+3
+00:00:08,992 --> 00:00:13,131
+Reference cameras share one three dimensional coordinate system.
+
+4
+00:00:14,017 --> 00:00:15,709
+Upload a corridor photo.
+
+5
+00:00:15,709 --> 00:00:22,477
+Feature matching and two D to three D registration estimate the camera position and orientation.
+
+6
+00:00:23,350 --> 00:00:25,853
+These are genuine model coordinates.
+
+7
+00:00:25,853 --> 00:00:30,303
+Metric distances require a measured scale, and are not invented.
+
+8
+00:00:31,183 --> 00:00:32,535
+Choose a destination.
+
+9
+00:00:32,535 --> 00:00:35,947
+A star search follows the connected navigation graph.
+
+10
+00:00:35,947 --> 00:00:40,003
+Turn directions come from the camera heading and route vectors.
+
+11
+00:00:40,892 --> 00:00:45,084
+A perspective style arrow is drawn on the localization photo.
+
+12
+00:00:45,084 --> 00:00:48,794
+Stored reference images illustrate the upcoming steps.
+
+13
+00:00:49,683 --> 00:00:51,765
+Re-localize to update progress.
+
+14
+00:00:51,765 --> 00:00:59,219
+For this controlled arrival check, we replay a registered waypoint image, then let the program confirm arrival.
+
+15
+00:01:00,100 --> 00:01:04,232
+This is a real photo replay, not live augmented reality.
+
+16
+00:01:04,232 --> 00:01:07,479
+On site walking validation is the next step.

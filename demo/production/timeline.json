@@ -1,0 +1,138 @@
+[
+  {
+    "index": 0,
+    "start": 0,
+    "duration": 5.666666666666667,
+    "captions": [
+      [
+        0.35,
+        5.1480045351473915,
+        "Here combines photo based indoor localization with visual route guidance."
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "start": 5.666666666666667,
+    "duration": 8.0,
+    "captions": [
+      [
+        6.016666666666667,
+        8.991902288188003,
+        "COLMAP builds a sparse map from a phone video."
+      ],
+      [
+        8.991902288188003,
+        13.131360544217689,
+        "Reference cameras share one three dimensional coordinate system."
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "start": 13.666666666666668,
+    "duration": 9.333333333333334,
+    "captions": [
+      [
+        14.016666666666667,
+        15.708666666666668,
+        "Upload a corridor photo."
+      ],
+      [
+        15.708666666666668,
+        22.476666666666667,
+        "Feature matching and two D to three D registration estimate the camera position and orientation."
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "start": 23.0,
+    "duration": 7.833333333333333,
+    "captions": [
+      [
+        23.35,
+        25.85297142857143,
+        "These are genuine model coordinates."
+      ],
+      [
+        25.85297142857143,
+        30.302698412698412,
+        "Metric distances require a measured scale, and are not invented."
+      ]
+    ]
+  },
+  {
+    "index": 4,
+    "start": 30.833333333333332,
+    "duration": 9.708333333333334,
+    "captions": [
+      [
+        31.183333333333334,
+        32.53530413625304,
+        "Choose a destination."
+      ],
+      [
+        32.53530413625304,
+        35.94742092457421,
+        "A star search follows the connected navigation graph."
+      ],
+      [
+        35.94742092457421,
+        40.00333333333333,
+        "Turn directions come from the camera heading and route vectors."
+      ]
+    ]
+  },
+  {
+    "index": 5,
+    "start": 40.541666666666664,
+    "duration": 8.791666666666666,
+    "captions": [
+      [
+        40.891666666666666,
+        45.083520753228825,
+        "A perspective style arrow is drawn on the localization photo."
+      ],
+      [
+        45.083520753228825,
+        48.794342403628114,
+        "Stored reference images illustrate the upcoming steps."
+      ]
+    ]
+  },
+  {
+    "index": 6,
+    "start": 49.33333333333333,
+    "duration": 10.416666666666666,
+    "captions": [
+      [
+        49.68333333333333,
+        51.76498962026125,
+        "Re-localize to update progress."
+      ],
+      [
+        51.76498962026125,
+        59.21866213151927,
+        "For this controlled arrival check, we replay a registered waypoint image, then let the program confirm arrival."
+      ]
+    ]
+  },
+  {
+    "index": 7,
+    "start": 59.74999999999999,
+    "duration": 8.25,
+    "captions": [
+      [
+        60.099999999999994,
+        64.23244444444444,
+        "This is a real photo replay, not live augmented reality."
+      ],
+      [
+        64.23244444444444,
+        67.47936507936508,
+        "On site walking validation is the next step."
+      ]
+    ]
+  }
+]

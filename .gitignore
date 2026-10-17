@@ -1,0 +1,20 @@
+# Local environments and generated data
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/projects/
+**/demo_inputs/
+**/test_artifacts/
+**/certs/
+**/mobile_access.json
+**/mobile_connection.json
+**/ui_state.json
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.db-*
+*.onnx
+*.zip

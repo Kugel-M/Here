@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+projects/
+demo_inputs/
+test_artifacts/
+certs/
+*.log
+mobile_access.json
+mobile_connection.json
+ui_state.json

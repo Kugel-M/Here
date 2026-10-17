@@ -1,0 +1,16 @@
+{
+  "id": "/",
+  "name": "寻位 · 室内定位",
+  "short_name": "寻位",
+  "description": "拍摄环境照片，查看室内位置、方向与重要地点。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#f5f2eb",
+  "icons": [
+    {"src": "/icons/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icons/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

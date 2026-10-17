@@ -1,0 +1,51 @@
+{
+  "engine": "Kokoro ONNX",
+  "voice": "af_heart",
+  "speed": 0.96,
+  "processing": "Entirely local; project narration was not transmitted to a speech service.",
+  "runtime": "Separate tmp/demo_voice_env environment",
+  "model_source": "https://github.com/thewh1teagle/kokoro-onnx",
+  "license": "Kokoro model Apache-2.0; runtime MIT",
+  "segments": [
+    {
+      "segment": "01_intro",
+      "seconds": 4.798004535147392,
+      "peak": 0.636138916015625
+    },
+    {
+      "segment": "02_map",
+      "seconds": 7.11469387755102,
+      "peak": 0.6102294921875
+    },
+    {
+      "segment": "03_localize",
+      "seconds": 8.46,
+      "peak": 0.87420654296875
+    },
+    {
+      "segment": "04_pose",
+      "seconds": 6.952698412698413,
+      "peak": 0.575286865234375
+    },
+    {
+      "segment": "05_route",
+      "seconds": 8.82,
+      "peak": 0.586578369140625
+    },
+    {
+      "segment": "06_arrows",
+      "seconds": 7.902675736961451,
+      "peak": 0.6536865234375
+    },
+    {
+      "segment": "07_relocalize",
+      "seconds": 9.53532879818594,
+      "peak": 0.5653076171875
+    },
+    {
+      "segment": "08_finish",
+      "seconds": 7.37936507936508,
+      "peak": 0.548919677734375
+    }
+  ]
+}
