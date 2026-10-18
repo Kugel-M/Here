@@ -1,63 +1,79 @@
 1
-00:00:00,350 --> 00:00:05,148
-Here combines photo based indoor localization with visual route guidance.
+00:00:00,250 --> 00:00:06,456
+HERE uses a photo to find your position and guide your next step, without relying on GPS.
 
 2
-00:00:06,017 --> 00:00:08,992
+00:00:07,042 --> 00:00:10,017
 COLMAP builds a sparse map from a phone video.
 
 3
-00:00:08,992 --> 00:00:13,131
+00:00:10,017 --> 00:00:14,156
 Reference cameras share one three dimensional coordinate system.
 
 4
-00:00:14,017 --> 00:00:15,709
+00:00:14,750 --> 00:00:16,442
 Upload a corridor photo.
 
 5
-00:00:15,709 --> 00:00:22,477
+00:00:16,442 --> 00:00:23,210
 Feature matching and two D to three D registration estimate the camera position and orientation.
 
 6
-00:00:23,350 --> 00:00:25,853
-These are genuine model coordinates.
+00:00:23,833 --> 00:00:29,526
+The result includes XYZ and camera orientation, with geometric quality checks.
 
 7
-00:00:25,853 --> 00:00:30,303
-Metric distances require a measured scale, and are not invented.
+00:00:29,526 --> 00:00:32,591
+Metric distances require a measured scale.
 
 8
-00:00:31,183 --> 00:00:32,535
+00:00:33,208 --> 00:00:34,560
 Choose a destination.
 
 9
-00:00:32,535 --> 00:00:35,947
+00:00:34,560 --> 00:00:37,972
 A star search follows the connected navigation graph.
 
 10
-00:00:35,947 --> 00:00:40,003
+00:00:37,972 --> 00:00:42,028
 Turn directions come from the camera heading and route vectors.
 
 11
-00:00:40,892 --> 00:00:45,084
-A perspective style arrow is drawn on the localization photo.
+00:00:42,625 --> 00:00:47,132
+Photo guidance compares camera heading with the next route segment.
 
 12
-00:00:45,084 --> 00:00:48,794
-Stored reference images illustrate the upcoming steps.
+00:00:47,132 --> 00:00:51,168
+Stored scene images help users recognize upcoming waypoints.
 
 13
-00:00:49,683 --> 00:00:51,765
+00:00:51,792 --> 00:00:53,873
 Re-localize to update progress.
 
 14
-00:00:51,765 --> 00:00:59,219
+00:00:53,873 --> 00:01:01,327
 For this controlled arrival check, we replay a registered waypoint image, then let the program confirm arrival.
 
 15
-00:01:00,100 --> 00:01:04,232
-This is a real photo replay, not live augmented reality.
+00:01:01,917 --> 00:01:04,234
+Photo localization comes first.
 
 16
-00:01:04,232 --> 00:01:07,479
-On site walking validation is the next step.
+00:01:04,234 --> 00:01:09,468
+Optional NFC tags could provide an extra check at known map locations.
+
+17
+00:01:10,083 --> 00:01:18,265
+AI glasses offer a promising next step: hands free navigation, with local stories and cultural check ins along the way.
+
+18
+00:01:18,875 --> 00:01:25,200
+A time lens could reveal how a place has changed, bringing local history into view as people explore.
+
+19
+00:01:25,792 --> 00:01:26,614
+Photo first.
+
+20
+00:01:26,614 --> 00:01:28,876
+Find your way, and discover more.

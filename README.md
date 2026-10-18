@@ -4,11 +4,11 @@ A Windows prototype that reconstructs an indoor scene from phone video, estimate
 
 ## Demo
 
-[Watch or download the 68-second English demo](demo/HERE_Demo_EN.mp4) · [English subtitles](demo/English_Subtitles.srt) · [Narration](demo/English_Narration.md)
+[Watch the updated English technical demo · 1:29](https://kugel-m.github.io/Here/technical-demo.html) · [Download 1080p MP4](docs/media/technical-demo.mp4) · [English subtitles](demo/English_Subtitles.srt) · [Narration](demo/English_Narration.md)
 
-[![Demo preview](demo/Demo_Preview.jpg)](demo/HERE_Demo_EN.mp4)
+[![Demo preview](demo/Demo_Preview.jpg)](https://kugel-m.github.io/Here/technical-demo.html)
 
-The video shows the working application's photo localization, destination selection, A* route planning, static scene arrows and re-localization. The arrival stage replays an already-registered mapping image through the real engine. It is not a physical walking trial or a held-out arrival-accuracy test.
+The video shows the working application's photo localization, destination selection, A* route planning, static scene arrows and re-localization. The revised video uses fresh high-resolution application captures and registered mapping-photo replays through the real engine. It presents a controlled demonstration. NFC anchors are planned as optional support; AI glasses and cultural discovery scenes are future concepts. [Music attribution](demo/Music_Credits.md).
 
 ## Cultural experience demo
 
