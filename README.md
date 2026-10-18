@@ -18,6 +18,12 @@ The video shows the working application's photo localization, destination select
 
 [![Cultural experience demo](docs/media/cultural-poster.jpg)](https://kugel-m.github.io/Here/cultural-demo.html)
 
+## Presentation script
+
+[Read the English presentation script](https://kugel-m.github.io/Here/presentation-script.html) · [Download the original Word document](docs/files/Find_and_Feel_English_Script.docx)
+
+Slide-by-slide speaker notes for the final 22-slide Find and Feel deck, including timing, video cues and optional Q&A support.
+
 ## Run the application
 
 See **[the Windows setup and operation guide](indoor_mapper_mvp/README.md)**. Requirements are Windows 10/11, Python 3.12 (64-bit), COLMAP and the Python dependencies in `indoor_mapper_mvp/requirements.txt`.

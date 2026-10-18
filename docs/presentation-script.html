@@ -1,0 +1,172 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Read the Find and Feel English presentation script, with slide-by-slide navigation and speaker cues."><title>Find and Feel — Presentation script</title><link rel="stylesheet" href="demo.css?v=2"><link rel="stylesheet" href="presentation.css"></head><body><main>  <header>
+    <a class="brand" href="https://github.com/Kugel-M/Here" aria-label="HERE project repository"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M26 6a14 14 0 1 0 3 17M8 15l17-8-6 19-3-9Z"/></svg>HERE</a>
+    <div class="eyebrow">Presentation script</div>
+  </header><nav class="demo-nav" aria-label="Project pages"><a href="technical-demo.html">Technical demo</a><a href="cultural-demo.html">Cultural demo</a><a href="presentation-script.html" aria-current="page">Presentation script</a></nav>
+<div class="reading-head"><p class="eyebrow">English speaker script</p><h1 class="source-block">Find and Feel Presentation Script</h1><p class="team source-block">Team 1096 / wwwb</p><div class="reading-tools"><a href="files/Find_and_Feel_English_Script.docx" download>Download original Word</a><button id="print" type="button">Print / Save PDF</button><button id="smaller" type="button" aria-label="Smaller script text">A−</button><button id="larger" type="button" aria-label="Larger script text">A+</button></div></div>
+<div class="reader-layout"><aside class="contents" aria-label="Slide contents"><details open><summary>On this page</summary><nav aria-label="Slide navigation"><p class="contents-label">Main presentation</p>
+<a href="#slide-1"><span>01</span>Find and Feel</a>
+<a href="#slide-2"><span>02</span>Our story</a>
+<a href="#slide-3"><span>03</span>The next turn can be hard to understand</a>
+<a href="#slide-4"><span>04</span>How the three parts work together</a>
+<a href="#slide-5"><span>05</span>A new photo updates the route</a>
+<a href="#slide-6"><span>06</span>The video shows a local navigation model</a>
+<a href="#slide-7"><span>07</span>Prototype walkthrough and future experience</a>
+<a href="#slide-8"><span>08</span>NFC anchors confirm a registered place</a>
+<a href="#slide-9"><span>09</span>AI glasses could keep attention on the place</a>
+<a href="#slide-10"><span>10</span>A newcomer explores an unfamiliar area</a>
+<a href="#slide-11"><span>11</span>One tag can serve two different purposes</a>
+<a href="#slide-12"><span>12</span>At a traditional shop, the story stays in view</a>
+<a href="#slide-13"><span>13</span>Time Lens could reveal how a place has changed</a>
+<a href="#slide-14"><span>14</span>Heritage Passport keeps the experience</a>
+<a href="#slide-15"><span>15</span>The original culture film adds a local voice</a>
+<a href="#slide-16"><span>16</span>Local voices provide the cultural foundation</a>
+<a href="#slide-17"><span>17</span>What is demonstrated, planned and still untested</a>
+<a href="#slide-18"><span>18</span>A small pilot can test the complete journey</a>
+<a href="#slide-19"><span>19</span>Trust depends on everyday operation</a>
+<a href="#slide-20"><span>20</span>A working foundation A focused next pilot</a>
+<p class="contents-label">Q&amp;A support</p>
+<a href="#slide-21"><span>21</span>Appendix   what the numbers mean</a>
+<a href="#slide-22"><span>22</span>Appendix   video and source references</a>
+</nav></details></aside><article class="script-body" aria-label="Presentation script"><section class="script-intro" aria-label="Presentation notes">
+<p class="source-block">English speaker script for the final 22-slide deck. Slides 1–20 form the main presentation. Slides 21–22 are optional Q&amp;A support.</p>
+<p class="source-block">Estimated speaking time: 10–11 minutes, excluding video. New video: 1 minute 29.27 seconds on slide 7. Culture excerpt: 24 seconds on slide 15. Total video time: 1 minute 53.27 seconds. Allow approximately 12–13 minutes overall, including brief slide transitions.</p>
+<p class="source-block">Stage directions appear in brackets. Do not read them aloud. Open the deck in Slide Show and click each embedded video when prompted.</p>
+</section>
+<section class="slide-section" id="slide-1" aria-labelledby="heading-1">
+<h2 class="source-block" id="heading-1">Slide 1  Find and Feel</h2>
+<p class="source-block timing">Approx. 31 seconds speaking</p>
+<p class="source-block speech">Hello, we are Team 1096. Find and Feel helps people find their way and understand the places they reach. Our foundation is a phone based visual navigation prototype. We now propose registered NFC anchors for extra location confirmation, and compatible AI glasses for directions and local stories. Today, we will separate what our prototype demonstrates from what we still need to test.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 2]</p>
+</section>
+<section class="slide-section" id="slide-2" aria-labelledby="heading-2">
+<h2 class="source-block" id="heading-2">Slide 2  Our story</h2>
+<p class="source-block timing">Approx. 22 seconds speaking</p>
+<p class="source-block speech">We will first explain the navigation problem and show the prototype. Then we will introduce the proposed collaboration with NFC and glasses, show how it supports cultural discovery, and finish with a measurable pilot plan. The two appendix slides provide the evidence details.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 3]</p>
+</section>
+<section class="slide-section" id="slide-3" aria-labelledby="heading-3">
+<h2 class="source-block" id="heading-3">Slide 3  The next turn can be hard to understand</h2>
+<p class="source-block timing">Approx. 26 seconds speaking</p>
+<p class="source-block speech">Imagine a student who has just arrived in Hong Kong. They know the destination, but cannot easily match the map to the corridor in front of them. Even after arriving, they may miss the history of the place. We want to support both finding the next turn and discovering a local story.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 4]</p>
+</section>
+<section class="slide-section" id="slide-4" aria-labelledby="heading-4">
+<h2 class="source-block" id="heading-4">Slide 4  How the three parts work together</h2>
+<p class="source-block timing">Approx. 32 seconds speaking</p>
+<p class="source-block speech">Visual localization remains the main positioning method. A phone photo is matched to the scene map to estimate position and camera orientation. A registered NFC tag could provide an extra location check. The phone would then send directions or approved stories to compatible glasses. If the visual estimate and tag disagree, our proposed response is to ask for confirmation, rather than silently merge the results.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 5]</p>
+</section>
+<section class="slide-section" id="slide-5" aria-labelledby="heading-5">
+<h2 class="source-block" id="heading-5">Slide 5  A new photo updates the route</h2>
+<p class="source-block timing">Approx. 32 seconds speaking</p>
+<p class="source-block speech">The existing workflow starts with environment images and a local map. The system extracts and matches features, finds two dimensional to three dimensional correspondences, and calculates the camera pose. It then plans a route through the navigation graph. After moving, the user takes a fresh photo to update the estimate. Stored scene images help people recognize waypoints, but they do not show continuous live progress.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 6]</p>
+</section>
+<section class="slide-section" id="slide-6" aria-labelledby="heading-6">
+<h2 class="source-block" id="heading-6">Slide 6  The video shows a local navigation model</h2>
+<p class="source-block timing">Approx. 34 seconds speaking</p>
+<p class="source-block speech">The model contains 141 registered reference cameras and 35,040 sparse three dimensional points. Its route graph has 13 nodes and 12 connections. A registered image replay reports 1,529 correspondences and a median reprojection error of 0.71 pixels. This checks image consistency in the existing model. It does not establish real world walking accuracy, and we do not compare it with the older single query as evidence of improvement.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 7]</p>
+</section>
+<section class="slide-section" id="slide-7" aria-labelledby="heading-7">
+<h2 class="source-block" id="heading-7">Slide 7  Prototype walkthrough and future experience</h2>
+<p class="source-block timing">Approx. 23 seconds speaking + 1:29.27 video</p>
+<p class="source-block speech">We will now play the new video. The first section explains the prototype and its registered image replay. The final section presents future glasses and Time Lens experiences. Those scenes are concepts, not completed hardware tests.</p>
+<p class="source-block stage-cue">[PLAY the embedded video in full: 1 minute 29 seconds. Resume after playback.]</p>
+<p class="source-block speech">The next slides explain the proposed integration in more detail.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 8]</p>
+</section>
+<section class="slide-section" id="slide-8" aria-labelledby="heading-8">
+<h2 class="source-block" id="heading-8">Slide 8  NFC anchors confirm a registered place</h2>
+<p class="source-block timing">Approx. 39 seconds speaking</p>
+<p class="source-block speech">At approved lamp posts, entrances or junctions, we could register a tag ID against a measured location or map node. The user must bring a phone close to the tag and actively read it. The system looks up that anchor and updates the route. A single tag cannot tell us which way the user faces. After leaving it, visual localization is still needed. Conflicting estimates should trigger a new check. We have not deployed this public anchor network.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 9]</p>
+</section>
+<section class="slide-section" id="slide-9" aria-labelledby="heading-9">
+<h2 class="source-block" id="heading-9">Slide 9  AI glasses could keep attention on the place</h2>
+<p class="source-block timing">Approx. 37 seconds speaking</p>
+<p class="source-block speech">Our basic proposal is for the phone to read NFC and coordinate with the glasses. Compatible audio glasses could deliver directions and local stories while the user looks around. A camera does not imply a display. Display capable devices could show images, but we have not selected or tested a model. Image capture, transmission, and the choice of phone or server processing still need compatibility tests. Direct NFC reading by glasses is not assumed.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 10]</p>
+</section>
+<section class="slide-section" id="slide-10" aria-labelledby="heading-10">
+<h2 class="source-block" id="heading-10">Slide 10  A newcomer explores an unfamiliar area</h2>
+<p class="source-block timing">Approx. 37 seconds speaking</p>
+<p class="source-block speech">Our proposed journey starts in an unfamiliar area. If a registered anchor is available, the student taps it with a phone. Visual localization then estimates heading, and the system offers directions. The student takes another photo when needed. At a cultural destination, they open an approved story and can save the visit or share the route. This is the complete experience we plan to test, not a claim that every location has a tag.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 11]</p>
+</section>
+<section class="slide-section" id="slide-11" aria-labelledby="heading-11">
+<h2 class="source-block" id="heading-11">Slide 11  One tag can serve two different purposes</h2>
+<p class="source-block timing">Approx. 24 seconds speaking</p>
+<p class="source-block speech">NFC has two distinct roles. A navigation anchor confirms a registered location or node. A cultural entrance opens a place specific story or visit record. The same tag could support both, but only with the right configuration. We should not assume that every lamp post has cultural content.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 12]</p>
+</section>
+<section class="slide-section" id="slide-12" aria-labelledby="heading-12">
+<h2 class="source-block" id="heading-12">Slide 12  At a traditional shop, the story stays in view</h2>
+<p class="source-block timing">Approx. 38 seconds speaking</p>
+<p class="source-block speech">Picture a visitor arriving at a traditional shop. They tap the location tag with their phone. Compatible glasses could then play an approved account from the owner, a local history, or an explanation of a traditional craft. The visitor can listen while observing the real shop, with less need to look down at a screen. Afterwards, they choose whether to save the story and visit in their Heritage Passport, or share the route with friends.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 13]</p>
+</section>
+<section class="slide-section" id="slide-13" aria-labelledby="heading-13">
+<h2 class="source-block" id="heading-13">Slide 13  Time Lens could reveal how a place has changed</h2>
+<p class="source-block timing">Approx. 34 seconds speaking</p>
+<p class="source-block speech">Time Lens is a future cultural experience for devices with displays. Outside an old building, a visitor could hear its history and compare images from different periods. The video illustrates that idea. It does not prove accurate spatial alignment or real time overlays. Historical material needs reliable sources and local review. Any AI generated reconstruction must be clearly labelled, so visitors do not mistake it for authentic historical footage.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 14]</p>
+</section>
+<section class="slide-section" id="slide-14" aria-labelledby="heading-14">
+<h2 class="source-block" id="heading-14">Slide 14  Heritage Passport keeps the experience</h2>
+<p class="source-block timing">Approx. 30 seconds speaking</p>
+<p class="source-block speech">We retain the Heritage Passport and social ideas from our original design. A visitor could save a place, collect a favourite story, and keep an optional visit record. Explorer, food journey and Storyteller badges could encourage further discovery. Friend challenges, story relays and shared routes could make exploration social. These remain proposed mechanisms, with sharing controlled by the user.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 15]</p>
+</section>
+<section class="slide-section" id="slide-15" aria-labelledby="heading-15">
+<h2 class="source-block" id="heading-15">Slide 15  The original culture film adds a local voice</h2>
+<p class="source-block timing">Approx. 22 seconds speaking + 0:24 video</p>
+<p class="source-block speech">This short excerpt keeps the useful cultural interaction from our original film: a phone tap followed by a local story.</p>
+<p class="source-block stage-cue">[PLAY the 24 second embedded excerpt. Resume after playback.]</p>
+<p class="source-block speech">The proposed glasses connection extends this interaction by letting the visitor listen while looking at the real place. It remains to be built and tested.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 16]</p>
+</section>
+<section class="slide-section" id="slide-16" aria-labelledby="heading-16">
+<h2 class="source-block" id="heading-16">Slide 16  Local voices provide the cultural foundation</h2>
+<p class="source-block timing">Approx. 28 seconds speaking</p>
+<p class="source-block speech">The cultural foundation should come from owner authorized stories, reliable sources and local review. GenAI could help adapt scripts, translate content, create clearly labelled illustrations, or support Cantonese narration. Our original Hunyuan exploration remains a design direction, not a completed production service. Review and attribution must come before publication, with a way to correct mistakes.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 17]</p>
+</section>
+<section class="slide-section" id="slide-17" aria-labelledby="heading-17">
+<h2 class="source-block" id="heading-17">Slide 17  What is demonstrated, planned and still untested</h2>
+<p class="source-block timing">Approx. 27 seconds speaking</p>
+<p class="source-block speech">This is our implementation boundary. We have demonstrated the local visual navigation foundation and a registered image replay. NFC lookup, the conflict handling flow, glasses delivery and cultural integration are planned. Independent walking tests, hardware compatibility and the complete journey remain untested. Continuous tracking and Time Lens spatial overlays also require development and validation.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 18]</p>
+</section>
+<section class="slide-section" id="slide-18" aria-labelledby="heading-18">
+<h2 class="source-block" id="heading-18">Slide 18  A small pilot can test the complete journey</h2>
+<p class="source-block timing">Approx. 38 seconds speaking</p>
+<p class="source-block speech">Our proposed pilot uses one permitted site over six weeks. First, we measure scale and register tags against map nodes. Next, we test compatible glasses and decide where images and processing should go. We also test unreadable tags, conflicting estimates and lost localization. Finally, we aim to involve 20 participants across 10 routes, comparing with a conventional map and a phone only experience. We will measure route completion, wrong turns, recovery time, story understanding and user comfort.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 19]</p>
+</section>
+<section class="slide-section" id="slide-19" aria-labelledby="heading-19">
+<h2 class="source-block" id="heading-19">Slide 19  Trust depends on everyday operation</h2>
+<p class="source-block timing">Approx. 34 seconds speaking</p>
+<p class="source-block speech">Reliable operation matters as much as the algorithm. When localization fails, the proposed system should pause uncertain guidance and ask for a new photo or anchor check, with a map or human help as a fallback. We need current maps and tag records, consent and minimal image retention. We will also test accessibility and story understanding. Venue supported licences and map refresh services remain possible operating models.</p>
+<p class="source-block stage-cue">[NEXT SLIDE: 20]</p>
+</section>
+<section class="slide-section" id="slide-20" aria-labelledby="heading-20">
+<h2 class="source-block" id="heading-20">Slide 20  A working foundation A focused next pilot</h2>
+<p class="source-block timing">Approx. 34 seconds speaking</p>
+<p class="source-block speech">Find and Feel already has a visual navigation foundation. Our next step is a focused pilot that connects registered NFC confirmation with compatible glasses and approved local stories. We are looking for permission to test at one site, access to suitable hardware, and local contributors willing to review stories. Navigation helps people arrive. Glasses could help them understand the place. The Passport keeps the memory. Thank you.</p>
+<p class="source-block stage-cue">[END MAIN PRESENTATION. Open slides 21–22 only if needed for questions.]</p>
+</section>
+<section class="slide-section" id="slide-21" aria-labelledby="heading-21">
+<p class="appendix-label">Optional Q&amp;A support</p>
+<h2 class="source-block" id="heading-21">Slide 21  Appendix   what the numbers mean</h2>
+<p class="source-block timing">Q&amp;A only</p>
+<p class="source-block stage-cue">[Q&amp;A only. Do not read during the main talk.]</p>
+<p class="source-block speech">The reported model position is minus 0.7249, 0.7361, minus 2.6561 in model units. The video explains camera to world rotation and heading as camera forward in world space. These are model quantities. Metric distance requires a measured scale. The 1,529 correspondences and 0.71 pixel median error belong to a registered frame replay. They are not an independent test in an unfamiliar environment.</p>
+</section>
+<section class="slide-section" id="slide-22" aria-labelledby="heading-22">
+<h2 class="source-block" id="heading-22">Slide 22  Appendix   video and source references</h2>
+<p class="source-block timing">Q&amp;A only</p>
+<p class="source-block stage-cue">[Q&amp;A only. Do not read during the main talk.]</p>
+<p class="source-block speech">Slide 7 contains the complete new video. Slide 15 contains a 24 second excerpt from the original embedded cultural film. The source deck and new video provide the prototype evidence and concept material. The fixed public facility NFC proposal comes from our latest design brief. No unverified partnership or hardware result is claimed.</p>
+</section>
+<a class="back-top" href="#">Back to top</a></article></div><footer>Find and Feel · Team 1096 / wwwb · Smart Living, Culture &amp; Belonging</footer></main><script>document.getElementById("print").onclick=()=>window.print();let size=18;for(const [id,delta] of [["smaller",-1],["larger",1]])document.getElementById(id).onclick=()=>{size=Math.max(16,Math.min(24,size+delta));document.documentElement.style.setProperty("--reading-size",size+"px");};</script></body></html>
