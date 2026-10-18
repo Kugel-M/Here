@@ -2,7 +2,7 @@
 
 ## Team application
 
-Team repository: [https://github.com/Kugel-M/Here](https://github.com/Kugel-M/Here). Source code is in `indoor_mapper_mvp/`; the complete sample map is distributed as a release attachment. The application runs on a Windows host with a mobile browser client. There is no public running-app URL. A LAN address is not a public evaluator link. The demo is in [`demo/HERE_Demo_EN.mp4`](../demo/HERE_Demo_EN.mp4), and the two-slide PPTX includes the same video for offline review.
+Team repository: [https://github.com/Kugel-M/Here](https://github.com/Kugel-M/Here). Source code is in `indoor_mapper_mvp/`; the complete sample map is distributed as a release attachment. The application runs on a Windows host with a mobile browser client. There is no public running-app URL. A LAN address is not a public evaluator link. The demo is in [`demo/HERE_Demo_EN.mp4`](../demo/HERE_Demo_EN.mp4), and the original two-slide PPTX retains its earlier demo for offline review; the playback page carries the latest revision.
 
 ## Third-party tools
 
@@ -22,7 +22,7 @@ These are upstream repositories used by the prototype, not repositories owned by
 ## Team demonstration and source
 
 - [Source repository](https://github.com/Kugel-M/Here)
-- [Demo video](https://github.com/Kugel-M/Here/blob/main/demo/HERE_Demo_EN.mp4)
+- [Demo video](https://kugel-m.github.io/Here/technical-demo.html)
 - [Evidence slides](https://github.com/Kugel-M/Here/blob/main/pitch-deck/HERE_Prototype_Proofs_EN.pptx)
 - [Full sample map and evidence downloads](https://github.com/Kugel-M/Here/releases/latest)
 
