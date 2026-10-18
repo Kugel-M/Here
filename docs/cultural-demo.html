@@ -5,29 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="HERE cultural experience concept demo: Hong Kong, one stop at a time.">
   <title>HERE — Cultural experience demo</title>
-  <style>
-    :root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#111c20;color:#f6f4ec;font-family:Arial,Helvetica,sans-serif;line-height:1.65}main{max-width:1080px;margin:auto;padding:48px 24px 64px}.eyebrow{color:#72d7ce;text-transform:uppercase;font-size:12px;letter-spacing:2px}h1{font-size:clamp(30px,5vw,54px);line-height:1.12;font-weight:600;letter-spacing:-1.5px;margin:16px 0}p{max-width:780px;color:#c6cfcf}video{display:block;width:100%;aspect-ratio:16/9;background:#000;margin:28px 0 18px;border:1px solid #38484b;border-radius:8px}a{color:#87e2d8;text-underline-offset:4px}.links{display:flex;flex-wrap:wrap;gap:12px 28px;margin:24px 0}.note{border-top:1px solid #38484b;padding-top:20px;font-size:14px}.caption{font-size:13px;color:#a8b9b8}.error{color:#ffe5b8}footer{margin-top:36px;font-size:13px;color:#9aaead}
-  </style>
+  <link rel="stylesheet" href="demo.css?v=1">
 </head>
 <body>
 <main>
-  <div class="eyebrow">HERE / Cultural experience concept</div>
-  <h1>Hong Kong,<br>one stop at a time.</h1>
-  <p>A story from the shop. A page of your own.</p>
+  <header>
+    <a class="brand" href="https://github.com/Kugel-M/Here" aria-label="HERE project repository"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M26 6a14 14 0 1 0 3 17M8 15l17-8-6 19-3-9Z"/></svg>HERE</a>
+    <div class="eyebrow">Stories, places &amp; belonging</div>
+  </header>
+  <nav class="demo-nav" aria-label="Demonstrations">
+    <a href="technical-demo.html">Technical demo</a>
+    <a href="cultural-demo.html" aria-current="page">Cultural demo</a>
+  </nav>
+  <h1>Hong Kong, one stop at a time.</h1>
+  <p>A story from the shop. A page of your own. Discover HERE’s cultural experience concept through a visit to a Hong Kong dai pai dong, where an ordinary stop becomes a personal encounter with the city.</p>
   <video id="demo" controls playsinline preload="metadata" poster="media/cultural-poster.jpg" aria-label="HERE cultural experience demonstration">
     <source src="media/cultural-demo-original.mp4" type="video/mp4">
     Your browser does not support embedded video. Please use the original MP4 download below.
   </video>
   <div class="caption">Cultural experience demo · 1:42 · Original 1080p video, without additional compression. Press play to watch with sound; use full screen for more detail.</div>
   <p id="video-error" class="error" hidden>The video could not be loaded. Please try the original MP4 download below.</p>
+  <div class="flow" aria-label="Cultural experience journey">Discover a place <span>›</span> Tap for a story <span>›</span> Connect with local culture <span>›</span> Keep a memory</div>
   <p>A small “Tap for a story” marker invites a visitor to discover the story behind a Hong Kong dai pai dong. Reading, conversation and a meal turn an ordinary stop into a more personal encounter with the city.</p>
   <p>The proposed cultural experience connects NFC story markers with place-based stories and a visitor's own record of the visit, complementing HERE's indoor wayfinding prototype.</p>
-  <div class="links">
+  <nav class="links" aria-label="Demo links">
     <a href="https://github.com/Kugel-M/Here/releases/download/cultural-demo-v1/Cultural-demo-original.mp4">Download original MP4</a>
     <a href="technical-demo.html">Watch the technical demo</a>
     <a href="https://github.com/Kugel-M/Here/tree/main/demo/cultural">About this demo</a>
     <a href="https://github.com/Kugel-M/Here">Project &amp; technical prototype</a>
-  </div>
+  </nav>
   <p class="note">This film illustrates the cultural experience concept. The working indoor localization and navigation application is documented separately in the repository. The film is not evidence of a deployed NFC service or a combined field-tested system.</p>
   <footer>HERE · Smart Living, Culture &amp; Belonging</footer>
 </main>
