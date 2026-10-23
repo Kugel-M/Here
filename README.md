@@ -16,7 +16,7 @@ The video shows the working application's photo localization, destination select
 
 **Hong Kong, one stop at a time.** A final team-edited film follows a visit to a Hong Kong dai pai dong, where a “Tap for a story” marker invites a visitor to discover local culture. This presents HERE's proposed cultural experience alongside the working wayfinding prototype above.
 
-[**Watch the cultural demo in your browser · 1:42**](https://kugel-m.github.io/Here/cultural-demo.html) · [Introduction and scope](demo/cultural/README.md) · [Download the original film](https://github.com/Kugel-M/Here/releases/download/cultural-demo-v1/Cultural-demo-original.mp4)
+[**Watch the cultural demo in your browser · 1:43**](https://kugel-m.github.io/Here/cultural-demo.html) · [Introduction and scope](demo/cultural/README.md) · [Download the updated film](https://github.com/Kugel-M/Here/releases/download/cultural-demo-v2/Cultural-demo-updated-20261023.mp4)
 
 [![Cultural experience demo](docs/media/cultural-poster.jpg)](https://kugel-m.github.io/Here/cultural-demo.html)
 
