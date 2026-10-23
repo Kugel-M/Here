@@ -4,6 +4,8 @@ A Windows prototype that reconstructs an indoor scene from phone video, estimate
 
 ## Demo
 
+[Explore a successful recorded journey](https://kugel-m.github.io/Here/recorded-case.html) — click through the input photos, computed poses, saved route, straight-ahead guidance and arrival match. This uses recorded engine outputs and does not run a new localization in the browser.
+
 [Watch the updated English technical demo · 1:29](https://kugel-m.github.io/Here/technical-demo.html) · [Download 1080p MP4](docs/media/technical-demo.mp4) · [English subtitles](demo/English_Subtitles.srt) · [Narration](demo/English_Narration.md)
 
 [![Demo preview](demo/Demo_Preview.jpg)](https://kugel-m.github.io/Here/technical-demo.html)

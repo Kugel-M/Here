@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HERE · A recorded navigation journey</title>
+  <meta name="description" content="Explore a successful recorded HERE localization and navigation case, from the input photo to a destination match. Real saved outputs, with their evidence.">
+  <link rel="stylesheet" href="demo.css?v=2"><link rel="stylesheet" href="recorded-case.css?v=1">
+  <script src="recorded-case.js?v=1" defer></script>
+</head>
+<body><main>
+  <header><a class="brand" href="technical-demo.html" aria-label="HERE technical demo"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M26 6a14 14 0 1 0 3 17M8 15l17-8-6 19-3-9Z"/></svg>HERE</a><div class="eyebrow">Photo-first local navigation</div></header>
+  <nav class="demo-nav" aria-label="Demonstrations"><a href="technical-demo.html">Technical demo</a><a href="recorded-case.html" aria-current="page">Recorded journey</a><a href="cultural-demo.html">Cultural demo</a><a href="presentation-script.html">Presentation script</a></nav>
+  <div class="intro"><div><div class="case-label">ONE SUCCESSFUL CASE / 18 OCT 2026</div><h1>From a photo<br>to the next step.</h1><p>Explore the original photos, computed poses and saved route from one successful application run.</p></div><aside class="recording-note"><strong>Recorded case</strong><span>Registered mapping photos processed by the real engine. Select a stage to inspect its saved output.</span></aside></div>
+  <noscript><p>This walkthrough needs JavaScript. You can still <a href="technical-demo.html">watch the technical video</a> or <a href="cases/corridor/case.json">read the saved case data</a>.</p></noscript>
+  <p id="load-error" class="error" hidden>Unable to load the saved case. Please reload, or use the technical video.</p>
+  <div id="walkthrough" hidden>
+    <nav id="stage-nav" class="stage-nav" aria-label="Recorded case stages"></nav>
+    <section class="workspace" aria-label="Selected case stage">
+      <figure class="photo-panel"><div class="photo-header"><span id="photo-kind"></span><a id="original-photo" href="cases/corridor/input.jpg" target="_blank" rel="noopener">Full resolution ↗</a></div><img id="case-photo" src="cases/corridor/input.jpg" alt="Recorded input photo looking into the kitchen passage"><figcaption id="photo-caption"></figcaption></figure>
+      <div class="story-panel"><div class="stage-counter" id="stage-counter"></div><h2 id="stage-title" tabindex="-1"></h2><p id="stage-description"></p><div class="result-line"><span id="result-status"></span><strong id="result-title"></strong><span id="result-detail"></span></div>
+        <div class="map-header"><h3>Model-space route</h3><span id="map-state"></span></div>
+        <svg id="route-map" viewBox="0 0 600 320" role="img" aria-labelledby="map-title map-desc"><title id="map-title">Saved navigation graph projected onto the model horizontal plane</title><desc id="map-desc">The route connects T001 and T002. Orange marks the selected recorded camera pose; its line shows camera heading.</desc></svg>
+        <div class="map-legend"><span><i class="dot current"></i>Recorded position &amp; heading</span><span><i class="line"></i>Saved route</span></div><p class="map-caption">Schematic projection of the actual model coordinates. Scale is uncalibrated; this is not the old floor-plan overlay.</p>
+        <div class="stage-controls"><button id="previous" type="button">Previous</button><span id="page-count"></span><button id="next" type="button">Next: computed pose</button></div>
+        <p class="browse-note">Browsing changes the displayed record, not the user’s location.</p>
+      </div>
+    </section>
+    <section class="evidence-strip" aria-label="Evidence for this stage"><div><span id="metric-one-label"></span><strong id="metric-one"></strong></div><div><span id="metric-two-label"></span><strong id="metric-two"></strong></div><div><span id="metric-three-label"></span><strong id="metric-three"></strong></div><a id="app-capture" target="_blank" rel="noopener" href="cases/corridor/app-localized.png">View actual app capture ↗</a></section>
+    <details id="technical-evidence"><summary>Inspect the evidence behind this stage</summary><div class="evidence-content"><p id="evidence-explanation"></p><dl id="evidence-fields"></dl><a href="cases/corridor/case.json" target="_blank" rel="noopener">Open exported numeric outputs and provenance (JSON) ↗</a></div></details>
+    <section class="scope"><h2>What this journey shows</h2><p>Two successful photo registrations, a saved route and an arrival match, taken from the same application session. The straight-ahead arrow belongs to the first photo’s view; the destination marker belongs to the second.</p><p>The images are registered mapping-photo replays, rather than an independent walking trial. Guidance uses static photo overlays and a candidate navigation graph. Physical distances and field passability remain to be checked.</p></section>
+  </div>
+  <footer>HERE · Smart Living, Culture &amp; Belonging<br><a href="https://github.com/Kugel-M/Here">Source &amp; project documentation</a> · <a href="technical-demo.html">Watch the full technical demo</a></footer>
+</main></body></html>
